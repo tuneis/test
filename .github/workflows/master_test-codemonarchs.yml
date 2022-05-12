@@ -58,4 +58,4 @@ jobs:
           app-name: 'TEST-CODEMONARCHS'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A9B96B2587B84D96BB9176016F738D7E }}
-          package: .
+          package: dist
